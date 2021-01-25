@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #h {
+        width: 200px;
+        }  
+#x {
+    background-color: rgb(43, 226, 217);
+    color: blue;
+}
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        margin: 0 auto;
+    }
+    #xxx{
+        background-color: brown;
+    }
+    #lll{
+        color: darkgrey;
+        height: 160px;
+        
+    }
+    </style>
+</head>
+<body>
+    <h1>这是我的一级标题</h1>
+    <p id="x"> 百度一分钟，听人吹牛两小时</p>
+    <h2>这是我的二级标题</h2>
+    <p>这里有一张图片，按照啥啥啥</p>
+    <img src="QQ图片20201210011655.jpg"/>
+    <img id="h" src="./D4AB2487DE27A95137B6A813BB8EE3BF.jpg" alt="">
+    <div>
+        <p>11111</p>
+    </div>
+    <a href="https://www.baidu.com/"  target="_blank">这里有一个百度链接</a>
+    <p id="xxx">这里有一个红色长条</p>
+    <ul>
+        <li>我</li>
+        <li>是</li>
+        <li>一</li>
+    </ul>
+    <button type="submit">点了也没啥用</button><br>
+    <input type="text" >
+    <ol>
+        <li>这</li>
+        <li>是</li>
+        <li>有</li>
+        <li>序</li>
+        <li>列</li>
+        <li>表</li>
+    </ol>
+<h1 id="lll">灰色的 大小为36px的结束文字</h=1>
+</body>
+</html>
