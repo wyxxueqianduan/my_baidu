@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wangyaxuan</title>
+    <script>
+         var str = 'today is a happy day';
+         var i=0,j=0;
+        console.log(str);
+        var flag = str.split(" ");
+        function change(flag) {
+              for(i=0;i<flag.length;i++)
+            {
+               var letter = flag[i].split("");
+               for(j=0;j<letter.length;j++)
+              {
+                 letter[0] = letter[0].toUpperCase(); 
+              }
+              flag[i] = letter.join("");   
+            }
+          flag = flag.join(" ");   
+          console.log(flag);    
+        }
+        change(flag);
+    </script>
+</head>
+<body>
+</body>
+</html> 
