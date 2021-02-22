@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wangyaxuan</title>
+    <Script>
+        var arr = ['ABCDEEF,GHJKKM'];
+        var brr = [];
+        function recur(arr) {
+            for (var i = 0; i < arr.length; i++) 
+            {
+                brr = arr[i].split("");
+                brr= brr.join("");
+                brr = brr.match(/(\w)\1+/g);
+                console.log(brr);
+            }
+        }
+        recur(arr);
+    </Script>
+</head>
+
+<body>
+</body>
+
+</html>
