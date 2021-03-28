@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="" id="" cols="80" rows="10"></textarea>
+    <button class="post">点击发布</button>
+    <div class="list">
+    </div>
+    <script>
+       let post = document.querySelector(".post");
+       let textarea = document.querySelector("textarea");
+       let div =  document.querySelector("div");
+       post.onclick = function () {
+           let value = textarea.value;
+           let p = document.createElement("p");
+           let text = document.createTextNode(value);
+           div.appendChild(p);
+           p.appendChild(text);
+       }
+
+    </script>
+</body>
+</html>
